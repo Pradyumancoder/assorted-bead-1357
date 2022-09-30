@@ -4,15 +4,17 @@
 .btn{
     padding: 8px 20px;
     border-radius: 4px;
-    outline: none;
-    border: none;
+
+    border: 1px solid black;
     cursor: pointer;
+    margin: 10px;
+
 }
 .btn:hover{
     padding: 8px 20px;
     transition: all 0.3s ease-out;
-    background: #fff;
-    color: #6568F4;
+    background: blue;
+    color: white;
     transition: 250ms;
 }
 
@@ -43,3 +45,8 @@
     font-size: 40px;
     color: #fff;
 }
+
+.log-in-btn{
+   background-color: #3acbf7;
+}
+
