@@ -1,7 +1,9 @@
+import { Button, Stack } from "@chakra-ui/react";
 import  { Component } from "react";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import { MenuItems } from "./MenuItems";
 import "./Navbar.css"
+
 
 
 class Navbar extends Component {
@@ -25,8 +27,16 @@ class Navbar extends Component {
                     )
                 })}
               </ul>
-                <Button >Sign up</Button>
-                <Button >Log In</Button>
+              <Stack direction='row' spacing={4} align='center'>
+  <Button className="btnlog-"   colorScheme='teal' variant='outline'>
+    Sign Up
+  </Button>
+ 
+
+  <Button className="btnlog-"   colorScheme='teal'>
+    Log In
+  </Button>
+ </Stack>
 
             </nav>
         )
