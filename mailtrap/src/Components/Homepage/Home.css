@@ -1,0 +1,37 @@
+.text-center{ 
+    height: 300px;
+    width: 418px;
+    border: 1px solid red;
+    margin: auto;
+}
+.email-1{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;
+    font-style: normal;
+    color: #202c45;
+  border-spacing: 20px;
+}
+.cp1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #202e45;
+    font-family: poppins,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-001{
+    margin-top: 20px;
+}
+.logo_of_compnay{
+   margin-left: 100px;
+   margin-top: 50px;
+   justify-content: space-between;
+
+    
+}
+.img-1-1{
+    margin: auto;
+    height: 534px;
+    width: 958px;
+
+}
